@@ -1,0 +1,42 @@
+# Python 3.9+ is recommended
+
+# -----------------------------------------------------------------
+# Core Deep Learning Framework (PyTorch)
+#
+# Your notebook specified torch 2.8.0, but for broader compatibility,
+# it's better to specify a stable version. The command to install
+# torch can be platform-dependent (CPU vs GPU). The user should
+# visit https://pytorch.org/get-started/locally/ for the correct command.
+# The lines below are for a standard pip install.
+# -----------------------------------------------------------------
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
+
+# -----------------------------------------------------------------
+# The Hugging Face Ecosystem
+# For models (MarianMT, CLIP), datasets (Multi30k), and tokenizers.
+# -----------------------------------------------------------------
+transformers==4.41.2
+datasets==2.19.1
+tokenizers==0.19.1
+
+# -----------------------------------------------------------------
+# Evaluation Metrics
+# Used for calculating the BLEU score for machine translation.
+# -----------------------------------------------------------------
+sacrebleu==2.4.2
+
+# -----------------------------------------------------------------
+# Image and Data Handling Utilities
+# -----------------------------------------------------------------
+Pillow==10.3.0        # For image processing
+requests==2.32.3      # For downloading image files
+tqdm==4.66.4          # For clean progress bars
+
+# -----------------------------------------------------------------
+# Development Environment
+# Required to run the .ipynb notebook files.
+# -----------------------------------------------------------------
+notebook==7.2.0
+jupyterlab==4.2.1
