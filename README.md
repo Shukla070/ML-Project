@@ -1,2 +1,2 @@
 # ML-Project
-Course Proejct
+Course Project
